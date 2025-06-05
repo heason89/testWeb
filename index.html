@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>天御資訊有限公司</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    .background {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+    }
+
+    .background::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  filter: brightness(60%);
+  z-index: -1;
+}
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 10px 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 60px;
+      margin-right: 10px;
+    }
+    .logo span {
+      font-size: 30px;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-top: -5px;
+    }
+    .nav-links a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+    .center-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    }
+    .center-text h1 {
+      font-size: 64px;
+      margin-bottom: 10px;
+    }
+    .center-text p {
+      font-size: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="background">
+    <div class="navbar">
+      <div class="logo">
+        <img src="LOGO.png" alt="logo">
+        <span>天御資訊有限公司</span>
+      </div>
+      <div class="nav-links">
+        <a href="about.html">公司介紹</a>
+        <a href="services.html">服務項目</a>
+        <a href="contact.html">聯絡我們</a>
+      </div>
+    </div>
+    <div class="center-text">
+      <h1>以熱誠、專業、服務為工作主旨的科技服務業</h1>
+      <p>專業．信賴．客製化</p>
+    </div>
+  </div>
+</body>
+</html>

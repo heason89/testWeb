@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>公司介紹 - 天御資訊有限公司</title>
+  <style>
+  * 
+  {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+        background-color: #888888; /* 加上淡灰色背景 */
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 10px 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 60px;
+      margin-right: 10px;
+    }
+    .logo a{
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-top: -5px;
+    }
+    .nav-links a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+    .center-text {
+margin-top: 100px; /* 讓內容區往下移一點 */
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #ffffff; /* 內容區背景改為白色 */
+  padding: 30px;
+  border-top: 3px solid #cccccc; /* 上方加一條灰色分隔線 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* 一點陰影更有層次 */
+  border-radius: 8px;
+
+    }
+    .center-text h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .center-text h2 {
+      font-size: 32px;
+      
+    }
+    .center-text p {
+      font-size: 24px;
+    }
+    .center-text {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-top: 3px solid #cccccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  gap: 30px;
+}
+
+.text-side {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-side {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-side img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+  </style>
+</head>
+<body>
+  <div class="background">
+    <div class="navbar">
+      <div class="logo">
+        <img src="LOGO.png" alt="logo">
+        <a href="index.html">天御資訊有限公司</a>
+      </div>
+      <div class="nav-links">
+        <a href="about.html">公司介紹</a>
+        <a href="services.html">服務項目</a>
+        <a href="contact.html">聯絡我們</a>
+      </div>
+    </div>
+<div class="center-text">
+  <div class="text-side">
+    <h1>公司介紹</h1>
+    <p>
+      天御資訊有限公司（SKYCLOUD INFORMATION CO., LTD）在系統整合資訊服務領域服務超過二十年，累積豐富的客戶經驗，
+      以客戶需求為導向，彈性客製化，提供高品質、專業的技術服務。
+      協助企業整合內部資訊系統，提升企業競爭力，擁有眾多製造業、營建業、機械業的成功案例。
+    </p>
+    <br>
+    <br>
+    <h2>經營理念</h2>
+    <p>
+      本公司以熱忱、專業、責任為工作主旨，專注於資訊應用產品，從基礎電腦設備到整體資訊服務，
+      提供高信賴度、高成熟度、高應用度的解決方案，協助客戶解決各類資訊產品應用上的問題。
+    </p>
+  </div>
+  <div class="image-side">
+    <img src="./computer_supercomputer_gray.png" alt="公司環境" />
+  </div>
+</div>
+  
+</body>
+</html>
